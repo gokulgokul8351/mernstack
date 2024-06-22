@@ -2,9 +2,13 @@
 import express from 'express'
 
 import MoviesRouting from './routes/moviesRoute.js'
+import connectDB from './lip/db.js'
 
 const app = express()
 const PORT = 5000
+
+// Connect DB
+connectDB()
 
 // Routes
 app.get('/', (req, res) => {
