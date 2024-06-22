@@ -7,6 +7,9 @@ import connectDB from './lip/db.js'
 const app = express()
 const PORT = 5000
 
+// Data understanding middlewares
+app.use(express.json()) /* ===> raw (json) methods working on */
+
 // Connect DB
 connectDB()
 
