@@ -1,9 +1,16 @@
-import { Schema, model } from 'mongoose'
+import { Schema, Types, model } from 'mongoose'
 
 // write your schema
 const schema = new Schema({
-  title: String,
-  desc: String,
+  title: {
+    type: String,
+    required: true,
+    unique: true,
+  },
+  desc: {
+    type: String,
+    required: true,
+  },
 })
 
 // create your model

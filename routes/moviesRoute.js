@@ -4,22 +4,26 @@ import {
   MovieCreate,
   MovieUpdate,
   MovieDelete,
+  MovieDetail,
 } from '../controller/movies.controller.js'
 
 const router = express.Router()
 
 // CURD functionality
 
-// Read
+// 1.Read
 router.get('/', MovieIndex)
 
-// Create
+// 2.Create
 router.post('/', MovieCreate)
 
-// Update
+// 3.Detail
+router.get('/:id', MovieDetail)
+
+// 4.Update
 router.put('/:id', MovieUpdate)
 
-// Delete
+// 5.Delete
 router.delete('/:id', MovieDelete)
 
 export default router
