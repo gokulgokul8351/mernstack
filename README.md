@@ -1,6 +1,8 @@
 ### we can start project do it now steps
 
-1clone my git repo
+MERN Stack CURD Operations for Backend
+
+1.clone my git repo
 2.npm init 
 3.express
 4.Nodemon
