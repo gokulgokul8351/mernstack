@@ -1,6 +1,15 @@
+### we can start project do it now steps
+
+1clone my git repo
+2.npm init 
+3.express
+4.Nodemon
+5.mongoose
+6.dotenv
+
+npm run server ===> live one side
+
+
 ### Database options
 
-username : gokulgokul8351
-password :  fwd00mkXJubHI8UU
-
-cluster_uri : "mongodb+srv://gokulgokul8351:fwd00mkXJubHI8UU@cluster3.4fvev7v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster3"
+MongoDB
