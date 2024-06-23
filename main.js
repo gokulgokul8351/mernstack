@@ -1,6 +1,5 @@
 // express
 import express from 'express'
-import cors from 'cors'
 import MoviesRouting from './routes/moviesRoute.js'
 import connectDB from './lip/db.js'
 import cors from 'cors'
@@ -12,7 +11,6 @@ app.use(cors())
 
 // Data understanding middlewares
 app.use(express.json()) /* ===> raw (json) methods working on */
-
 
 // Connect DB
 connectDB()
